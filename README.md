@@ -18,7 +18,7 @@ para usar esse programa você vai precisar do AIDA64 em conjunto (claro que ele 
 1. tem o win-x86 nele existe um programa feito em c# compilado, ele simplesmente pega o socket (porém se a máquina for muito antiga é possivel ele não pegar o socket)
 
 2. config.properties - CRUCIAL PRESTAR ATENÇÃO NELA E EDITAR, tem duas linhas
-  - fileSaveLabel= - precisa ter endereço de onde vai ser pego o Model.odt (sim precisa está com o nome Model.odt) e esse endereço vai ser utilizado para salvar o etiquetas também. Exemplo: C:/Users/Administrador/Desktop/Remoto-ponto-a-ponto
+  - fileSaveLabel= - precisa ter endereço de onde vai ser pego o Model.odt (sim precisa está com o nome Model.odt) e esse endereço vai ser utilizado para salvar o etiquetas também. Exemplo: C:/Users/Administrador/Desktop/Remoto
     - odt é o tipo do arquivo do libreoffice writer. o Model.odt precisa ter uma tabela 1x1 (uma tabela de uma celula apenas) para funcionar corretamente, vai ter um Model.odt de exemplo dentro dessa pasta
   - dirFile= é o nome onde o generate-label.jar está, por padrão é geradorEtiquetas.
 
@@ -27,6 +27,3 @@ para usar esse programa você vai precisar do AIDA64 em conjunto (claro que ele 
 EM CASO DE ERROR
 
 vai ser gerador um log dentro da pasta onde está o generate-label.jar, vai ser um log, pode tentar corrigir apartir desse error ou mandar constatar o error [aqui](https://github.com/Ponto-a-Ponto-LTDA/label-generate/issues) :)
-
-## Download
-Você pode baixar [aqui](https://github.com/Ponto-a-Ponto-LTDA/label-generate/releases/tag/v1.0-rc)
